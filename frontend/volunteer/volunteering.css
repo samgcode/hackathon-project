@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.jacket{
+    background: #000;
+    border-color:#723dbe;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+
+.shoes{
+  background: #000;
+  border-color:#723dbe;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+
+.shirt{
+    background: #000;
+    border-color:#723dbe;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+
+.couch{
+    background: #000;
+    border-color:#723dbe;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+
+.laptop{
+    background: #000;
+    border-color:#723dbe;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
