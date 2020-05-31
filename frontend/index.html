@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript"
-       src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython.min.js">
-   </script>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   <link rel="stylsheet" href="./styles.css" />
-   <title></title>
-  </head>
-    <body onload="brython()">
-      <nav class="navbar navbar-fixed navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white" href="./index.html">Navbar</a>
-        <div>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="#">link<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./graphs.html">graphs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./signin/OTHERS_login.html">login</a> <!--create a new file for this-->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./volunteer/volinteer.html">volinteer</a> <!--create a new file for this-->
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <form class="col-sm-6 form-center">
-        <div class="form-group">
-          <label for="itemName">Item</label>
-          <select class="form-control" id="itemName">
-            <option>masks</option>
-            <option>gloves</option>
-            <option>hand sanitizer</option>
-            <option>Face shields</option>
-          </select>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="quantity">Item quantity</label>
-            <input type="text" class="form-control" id="quantity" placeholder="item quantity">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+   <title>Home | Coronabook</title>
+    <div class="container">
+      <div class="header main">
+        <nav class="navbar navbar-fixed navbar-expand-lg navbar-light bg-primary">
+          <img src="https://cdn.discordapp.com/attachments/716072757766520854/716690722862006292/logo.png" width="40" height="40"  alt="">
+          <a class="navbar-brand text-white" href="./index.html" style="padding-left:10px">Home</a>
+          <div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="./tweets.html">recent suply tweets<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./graphs.html">graphs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./store/store.html">store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./direction/direction.html">login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./volunteer/volinteer.html">volunteer</a>
+              </li>
+            </ul>
           </div>
-          <div class="form-group col-md-6">
-            <label for="location">Location</label>
-            <input type="text" class="form-control" id="location" placeholder="location">
-          </div>
+        </nav>
+        <h3 class="text-muted">CoronaBook</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 class="display-3">welcome home!</h1>
+        <p class="lead">CoronaBook is your one stop shop to donate medical equipment and supplys to docters and frontline workers in need. </p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      </div>
+
+      <div class="row lines w/ img">
+        <div class="col-lg-6">
+          <h4>welcome!</h4>
+          <p>Cronabook is a Organization Aimed at helping medical professionals , and other frontline workers get the supplies that they need, in order to be safe. We run off a collection of dedicated volunteers who help us distribute things like masks, food and other supplies to workers and families in need. We are the collective of people that are enabling families to have the ability to stay home and in doors. Aside from medical workers we work with schools to get internet and technology to students in need, so they can have better opportunities and a better education, while they are away from school. We also help develiver things to the vernatube through some of our partner organizations, like the Calgary food bank and meals on wheels.</p>
+
+          <h4>volunteer with us</h4>
+          <p>come help with the drop off of suppplys, devlopment of the website, and the expansion of our organization</p>
+          <a class="btn btn-primary" href="./volunteer/volinteer.html">Volunteer</a>
+
+          <h4>Store</h4>
+          <p>everything is free, just make orangements with the "seller" here you can either tade items, let people borrow items or give away items.</p>
+          <a class="btn btn-primary" href="./store/store.html">Store</a>
+
         </div>
 
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="addedRemovedRadio" id="removed" value="removed" checked>
-          <label class="form-check-label" for="removed">
-            removed
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="addedRemovedRadio" id="added" value="added">
-          <label class="form-check-label" for="added">
-            added
-          </label>
-        </div>
-        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
-      </form>
-    </body>
+        <div class="col-6">
+          <h4>look at the map</h4>
+          <p>you can find maps of where medical faculties, and other front line operations are, and see what they need!</p>
+          <a class="btn btn-primary" href="./map/map.html">Map</a>
 
-    <script type="text/javascript" src="./app.js"></script>
-    <script type="text/javascript" src="./backend/index.js"></script>
+          <h4>sign in</h4>
+          <p>login as a medical worker or as a donator</p>
+          <a class="btn btn-primary" href="./direction/direction.html">Sign in</a>
+
+          <h4>Twitter feed</h4>
+          <p>See tweets from people who have suplies to donate</p>
+          <a class="btn btn-primary" href="./tweets.html">Tweets</a>
+
+        </div>
+      </div>
+      <footer class="footer">
+        <p>© coronabook 2020 - fair use open source </p>
+      </footer>
+    </div>
+</div>
+</body>
 </html>
