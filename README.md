@@ -27,3 +27,12 @@ store : access to our online donation centre
 volunteer : description and ways someone who is interested in volunteering can help us out
 
 login : here you decide if you are part of an institution or household and it directs you to the login page where you can then (depending on your profile) input into the database
+
+You can contact us At:
+coronabookco@gmail.com
+
+or at our respective personal emails, wich you alrady have
+
+thankyou
+
+- The Fruit Salad Team
