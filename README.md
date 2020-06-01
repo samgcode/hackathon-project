@@ -15,15 +15,15 @@ CoronaBook is applacation trargeted at connecting and transporting medical mater
 How to use the application:
 
 read me thing (how to use our app) -- by using our sidebar you can access the following
-[9:24 PM]
+
 recent: our introduction and navigation of the website
-[9:27 PM]
-supply tweets: recent tweets from people using the hashtag #CoronaBook(edited)
-[9:28 PM]
+
+supply tweets: recent tweets from people using the hashtag #CoronaBook
+
 graphs : the data base with all the information placed in a graph about the products
-[9:28 PM]
+
 store : access to our online donation centre
-[9:29 PM]
+
 volunteer : description and ways someone who is interested in volunteering can help us out
 
 login : here you decide if you are part of an institution or household and it directs you to the login page where you can then (depending on your profile) input into the database
