@@ -1,5 +1,5 @@
-node.js
-npm
+node.js v10.15.3
+npm v6.4.1
 
 
 How to run:
