@@ -33,6 +33,6 @@ coronabookco@gmail.com
 
 or at our respective personal emails, wich you alrady have
 
-thankyou
+thank you!
 
 - The Fruit Salad Team
